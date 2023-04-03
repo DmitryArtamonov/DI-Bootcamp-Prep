@@ -1,18 +1,19 @@
 * {
-    font-family: "Delicious Handrawn";
+    
     padding: 0px;
     margin: 0px;
 }
 
+nav, #lifestory{
+    font-family: "Delicious Handrawn", sans-serif;
+}
 
 nav{
     background-color: darkcyan;
     display: flex;
     justify-content: space-between;
     font-size: 2em;
-    padding: 10px 20px
-
-
+    padding: 10px 20px;
 }
 
 nav a{
@@ -22,4 +23,70 @@ nav a{
 
 nav a:hover{
     color: #005A5A
+}
+
+main{
+    display: flex;
+    font-family: Alkatra;
+}
+
+#lifestory{
+    background-color: #59C5C5;
+    width: 300px;
+    min-width: 300px;
+    height: 600px;
+    padding: 10px;
+    font: "Delicious Handrawn"
+
+}
+#lifestory h2{
+    text-align: center;
+}
+
+#lifestory li{
+    padding-bottom: 30px;
+    list-style: none;
+    font-size: 1.5em;
+
+}
+
+article{
+    width: 50vw;
+    padding: 20px;
+    margin: auto;
+
+}
+
+article h1{
+    text-align: center;
+    font-size: 2em;
+    color:#005A5A;
+    background-color: white;
+}
+
+.likes-block{
+    border: 5px dotted #31C5C5;
+    border-bottom: 0px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.likes-block:last-child{
+    border-bottom: 5px dotted #31C5C5;
+}
+
+
+.likes-block *{
+
+    width: 20vw;
+    text-align: center;
+    font-size: 5em;
+
+}
+
+footer{
+    font-family: sans-serif;
+    padding: 10px;
+    font-style:unset;
+    text-align: right;
 }
