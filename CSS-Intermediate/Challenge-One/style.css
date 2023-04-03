@@ -1,0 +1,32 @@
+body, .copyright{
+    background-color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#wrap{
+    width: 800px;
+    margin: auto;
+}
+
+#nav{
+    float: left;
+    width: 150px;
+    background-color: cyan;
+}
+
+#content{
+    width: 500px;
+    background-color:darkcyan;
+    text-align: center;
+}
+
+#content li{
+    list-style: none;
+
+}
+
+#content, #nav {
+    display: inline-block;
+    height: 400px;
+    padding: 20px;
+}   

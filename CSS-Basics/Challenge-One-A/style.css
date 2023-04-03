@@ -1,0 +1,41 @@
+body{
+ 
+    background-color:coral;
+
+}
+
+#wrap{
+    background-color:rgb(236, 232, 201);
+    width: 800px;
+    margin: auto;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+h1{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    border-style: dotted;
+    margin: 0;
+    border-width: 0px 0px 5px 0px;
+}
+
+p{
+    padding: 0px 20px;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    font-style: italic;
+}
+li:first-letter{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.copyright{
+    font-size: 80%;
+    text-align: center;
+}

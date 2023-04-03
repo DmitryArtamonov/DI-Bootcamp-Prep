@@ -1,0 +1,33 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div *{
+    height: 200px;
+    width: 200px;
+}
+
+.red{
+    background-color: crimson;
+}
+
+.blue{
+    background-color:cyan;
+}
+
+.orange{
+    background-color: orange;
+}
+
+header{
+    background-color: rgb(43, 126, 54);
+    height: 100px;
+    width: 648px;
+    
+}
+div *,  header{
+    border: 2px solid;
+    margin: 10px
+}
+

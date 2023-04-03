@@ -1,0 +1,32 @@
+main{
+    display: flex;
+}
+
+main p{
+    height: 400px;
+    width: 200px;
+}
+
+.red{
+    background-color: crimson;
+}
+
+.green{
+    background-color: rgb(54, 121, 52);
+}
+
+.orange{
+    background-color: orange;
+}
+
+header{
+    background-color: rgb(43, 50, 126);
+    height: 100px;
+    width: 648px;
+    
+}
+main p, header{
+    border: 2px solid;
+    margin: 10px
+}
+

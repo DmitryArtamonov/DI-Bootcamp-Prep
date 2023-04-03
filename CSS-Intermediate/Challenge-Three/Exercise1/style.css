@@ -1,0 +1,26 @@
+main div{
+    display: flex;
+}
+
+.red{
+    background-color: crimson;
+    height: 100px;
+    width: 150px;
+}
+
+.blue{
+    background-color: cyan;
+    height: 100px;
+    width: 400px;
+}
+
+footer{
+    background-color: yellow;
+    height: 100px;
+    width: 594px;
+    
+}
+.red, .blue, footer{
+    border: 2px solid;
+    margin: 20px
+}

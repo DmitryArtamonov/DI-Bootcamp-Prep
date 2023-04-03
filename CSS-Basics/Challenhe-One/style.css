@@ -1,0 +1,14 @@
+body{
+    width: 800px;
+    margin: auto;
+    background-color: rgb(41, 129, 188);
+
+}
+li{
+    text-align: center;
+    list-style: none;
+}
+li:first-letter{
+    font-size: 150%;
+    font-weight: bold;
+}
