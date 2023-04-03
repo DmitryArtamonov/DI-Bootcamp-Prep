@@ -1,7 +1,25 @@
 * {
     font-family: "Delicious Handrawn";
+    padding: 0px;
+    margin: 0px;
 }
 
-body{
-    
+
+nav{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    padding: 10px 20px
+
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: #005A5A
 }
