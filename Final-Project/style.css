@@ -34,7 +34,7 @@ main{
     background-color: #59C5C5;
     width: 300px;
     min-width: 300px;
-    height: 600px;
+    height: 900px;
     padding: 10px;
     font: "Delicious Handrawn"
 
@@ -49,9 +49,14 @@ main{
     font-size: 1.5em;
 
 }
+@media screen and (max-width: 800px) {
+    #lifestory{
+        display: none;
+    }
+}
 
 article{
-    width: 50vw;
+    width: 60vw;
     padding: 20px;
     margin: auto;
 
@@ -79,8 +84,8 @@ article h1{
 .likes-block *{
 
     width: 20vw;
-    text-align: center;
-    font-size: 5em;
+    text-align: left;
+    font-size: 4em;
 
 }
 
